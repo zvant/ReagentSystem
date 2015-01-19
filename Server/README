@@ -12,4 +12,4 @@ This program use several local commands:
 convert - convert images. Install imagemagick to enable.
 pdflatex - generate PDF file of reagent list. Install TeXLive to enable.
 
-If this server has problem with reading or writing files, try removing all files in ./list/ and ./image/ directory. DO NOT remove or edit any file in ./pdf/ directory.
+If this server has problem with reading or writing files, try removing all files in ./list/ and ./image/ directory. DO NOT remove or edit any file in ./pdf/ directory only if you know what you are doing.
