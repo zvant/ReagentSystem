@@ -1,0 +1,15 @@
+This program is a server that maintain a database of all reagents in a laboratory. The main program would use port:8189 to accept requests from clients. After generate PDF file of reagents list, the PDF would be moved to directory /var/www/PDF/ and could be visted via HTTP. Password is required to visit this server. The defualt password is 123456. Modified ServerEcho class in Server.java and re-compile to change it.
+
+Build
+$ javac -Xlint:unchecked Reagent.java GeneratePDF.java StructureImage.java ReagentSystem.java Server.java
+
+Run
+# java Server
+
+Requirements
+Java Developer's Kit(JDK) and Java Runtime Environment(JRE) are required to build and run this program.
+This program use several local commands:
+convert - convert images. Install imagemagick to enable.
+pdflatex - generate PDF file of reagent list. Install TeXLive to enable.
+
+If this server has problem with reading or writing files, try removing all files in ./list/ and ./image/ directory. DO NOT remove or edit any file in ./pdf/ directory.
