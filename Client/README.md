@@ -5,7 +5,7 @@ This program is the client that access to the database of all reagents in a labo
 *$ javac Client.java GlientGUI.java GUI.java*
 
 ### Run
-for command interface:
+for command interface:<br>
 *$ java Client server_ip_addr*
-for graphic interface:
+for graphic interface:<br>
 *$ java GUI*
