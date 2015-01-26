@@ -1,9 +1,10 @@
-This program is a server that maintain a database of all reagents in a laboratory. The main program would use port:8189 to accept requests from clients. After generate PDF file of reagents list, the PDF would be moved to directory /var/www/PDF/ and could be visted via HTTP. Password is required to visit this server. The defualt password is 123456. Modified ServerEcho class in Server.java and re-compile to change it.
+## Server Program
+This program is a server that maintain a database of all reagents in a laboratory. The main program would use *port:8189* to accept requests from clients. After generate PDF file of reagents list, the PDF would be moved to directory *${WWW_DIR}/PDF/* and could be visited and downloaded via HTTP. Password is required to visit this server. The defualt password is 123456. Modify class ServerEcho in *Server.java* and re-compile to change it.
 
-Build
-$ javac -Xlint:unchecked Reagent.java GeneratePDF.java StructureImage.java ReagentSystem.java Server.java
+### Build
+`$ javac -Xlint:unchecked Reagent.java GeneratePDF.java StructureImage.java ReagentSystem.java Server.java`
 
-Run
+### Run
 # java Server
 
 Requirements
