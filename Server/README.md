@@ -5,12 +5,11 @@ This program is a server that maintain a database of all reagents in a laborator
 `$ javac -Xlint:unchecked Reagent.java GeneratePDF.java StructureImage.java ReagentSystem.java Server.java`
 
 ### Run
-# java Server
+`# java Server`
 
-Requirements
-Java Developer's Kit(JDK) and Java Runtime Environment(JRE) are required to build and run this program.
-This program use several local commands:
-convert - convert images. Install imagemagick to enable.
-pdflatex - generate PDF file of reagent list. Install TeXLive to enable.
+### Requirements
+Java Developer's Kit(JDK) and Java Runtime Environment(JRE) are required to build and run this program. This program use these local commands:<br>
+*convert* - convert images. Install imagemagick to enable.<br>
+*pdflatex* - generate PDF file of reagent list. Install TeXLive to enable.
 
-If this server has problem with reading or writing files, try removing all files in ./list/ and ./image/ directory (note that this would clear the database). PDF compilation process could differ from one system to another, see compilation script ./pdf/compile.sh for more details. You should try to execute it as root before you run the server. You might need to modify the content and permission of the script file.
+If this server has problem with reading or writing files, try removing all files in ./list/ and ./image/ directory (note that this would clear the database). PDF compilation process could differ from one system to another, see compilation script *./pdf/compile.sh* for more details. You should try to execute it as root before you run the server. You might need to modify the content and permission of the script file.
