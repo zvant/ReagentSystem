@@ -6,6 +6,6 @@ This program is the client that access to the database of all reagents in a labo
 
 ### Run
 for command interface:<br>
-*$ java Client server_ip_addr*
+*$ java Client server_ip_addr*<br>
 for graphic interface:<br>
 *$ java GUI*
