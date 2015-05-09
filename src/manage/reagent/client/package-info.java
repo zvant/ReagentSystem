@@ -1,5 +1,5 @@
 /**
- * The client of the management system. With both CUI and GUI versions.
+ * The client of the management system.
  */
 
 package manage.reagent.client;
